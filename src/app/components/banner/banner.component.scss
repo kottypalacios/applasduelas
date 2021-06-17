@@ -1,0 +1,51 @@
+.banner__container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+    
+}
+
+.picsum-img-wrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0,0,0,0.6);
+    }
+    
+    
+}
+.picsum-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.title__container{
+    position: relative;
+    margin: auto;  
+    padding: 20px;
+    top: -35%;  
+    z-index: 1;
+    height: 200px;   
+    text-align: center;
+    color: white;
+    cursor: default;
+   
+}
+.principal__title{
+    margin: 30px auto;
+   
+    
+}
+.principal__title h1, .principal__subtitle h3{
+    font-size: 45px;
+    
+}
